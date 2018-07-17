@@ -1,12 +1,12 @@
 import React from 'react';
 import FootMenu from './components/footMenu/FootMenu';
 import Main from './components/main/Main';
-import './App.css'
+import './App.css';
 
 const App = () => (
-  <div>
+  <div className="App">
     <Main/>
-    <FootMenu/>
+    <FootMenu className="foot-menu"/>
   </div>
 )
 

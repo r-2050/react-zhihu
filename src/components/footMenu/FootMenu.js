@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import { Row, Col } from 'antd';
+import './footMenu.css'
 
 const FootMenu = () => (
-    <div>
-        <ul>
-            <li><Link to='/'>首页</Link></li>
-            <li><Link to='/thinking'>想法</Link></li>
-            <li><Link to='/user'>用户</Link></li>
-        </ul>
+    <div className="footMenu-nav">
+        <Row align="bottom">
+            <Col span={8}><Link to='/'>首页</Link></Col>
+            <Col span={8}><Link to='/thinking'>想法</Link></Col>
+            <Col span={8}><Link to='/user'>用户</Link></Col>
+        </Row>
     </div>
 )
 

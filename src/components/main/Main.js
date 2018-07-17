@@ -5,7 +5,7 @@ import Thinking from '../thinking/Thinking';
 import User from '../user/User';
 
 const Main = () => (
-    <div>
+    <div className="main">
         <Switch>
             <Route exact path='/' component = {First} />
             <Route path='/thinking' component = {Thinking}/>
