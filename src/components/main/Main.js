@@ -3,6 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 import First from '../first/First';
 import Thinking from '../thinking/Thinking';
 import User from '../user/User';
+import './main.css'
 
 const Main = () => (
     <div className="main">
