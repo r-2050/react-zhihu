@@ -1,5 +1,9 @@
 .footMenu-nav {
-    background-color: antiquewhite;
+    background-color: #CC9999;
     height: 10%;
     border-radius: 5px; 
+}
+
+.row{
+    padding-top: 10px;
 }
