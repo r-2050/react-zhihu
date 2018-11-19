@@ -7,3 +7,6 @@
 .row{
     padding-top: 10px;
 }
+.row a{
+    color: #FFCCCC;
+}
